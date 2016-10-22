@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
 	<!-- icons google -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 </head>
 <body>
 	<!--menu-->
@@ -17,11 +17,81 @@
 		<div class="container-fluid">
 		    <div class="nav-wrapper">
 		    	<div class="left hide-on-med-and-down button-top">
-		        	<a href="sass.html" class="link-menu"><i class="material-icons medium left" style="font-weight: bold;font-size: 42px;padding: 0;margin-right: 5px;">menu</i>Menu</a>
+		        	<a id="click-menu" class="link-menu waves-effect waves-light"><i class="material-icons medium left" style="font-weight: bold;font-size: 42px;padding: 0;margin-right: 5px;">menu</i>Menu</a>
 		      	</div>
 		      	<a href="#" class="brand-logo center"><img src="img/logo.png" class="logo"></a>
 		      	<div class="right hide-on-med-and-down button-top">
-		        	<i class="material-icons medium left" style="font-weight: bold;font-size: 28px;padding: 0;margin-right: 5px;">search</i>
+		      		<a id="click-busca" class="link-menu waves-effect waves-light">
+		        		<i class="material-icons medium left" style="font-weight: bold;font-size: 28px;padding: 0;margin-right: 5px;">search</i>
+		        	</a>
+		        		<div id="box-s">
+			        		<form class="box-search" action="http://www.siqueiradg.com.br" method="get">
+	                            <input type="text"  name="s" placeholder="O que está procurando?..">
+	                        </form><!--Fecha Busca-->
+                        </div>
+		      	</div>
+
+		      	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="button-top material-icons">menu</i></a>
+
+		      	<ul class="side-nav" id="mobile-demo">
+                        <li>
+                        	<a href="#">Link</a>
+                        </li>
+                        <li>
+                        	<a href="#">Link</a>
+                        </li>
+                        <li>
+                        	<a href="#">Link</a>
+                        </li>
+                        <li>
+                        	<a href="#">Link</a>
+                        </li>
+                        <li>
+                        	<a href="#">Link</a>
+                        </li>
+                        <li>
+                            <form class="buscar" action="http://www.siqueiradg.com.br" method="get">
+                                <input type="text" class="blue-text text-darken-2" name="s" placeholder="PESQUISAR..">
+                            </form><!--Fecha Busca-->
+                        </li>
+                </ul>
+		      	<div id="menu-topo">
+		      		<div class="arrow-up"></div>
+		      		<div class="container-menu">
+		      			<div class="row rowClear">
+			      			<div class="col s6" style="padding: 0;">
+				      			<!--menu 1-->
+				      			<ul class="lista-menu-principal col s12" style="padding: 0;">
+				      				<li><a href="#" title="#">mega listas</a></li>
+				      				<li><a href="#" title="#">astronomia</a></li>
+				      				<li><a href="#" title="#">ciência</a></li>
+				      				<li><a href="#" title="#">saúde</a></li>
+				      				<li><a href="#" title="#">mistérios</a></li>
+				      				<li><a href="#" title="#">tecnologia</a></li>
+				      				<li><a href="#" title="#">astronomia</a></li>
+				      				<li><a href="#" title="#">natureza</a></li>
+				      				<li><a href="#" title="#">bizarro</a></li>
+				      				<li><a href="#" title="#">animais</a></li>
+				      			</ul>
+				      		</div>
+				      		<div class="col s6" style="padding: 0;">
+				      			<!--menu 3-->
+				      			<div class="col s12" style="padding: 0;">
+				      				<span class="menu-categoria">Mega Listas</span>
+				      			</div>
+				      			<ul class="lista-menu-megalistas col s12" style="padding: 0;">
+				      				<li><a href="#" title="#">tipos de aliens</a></li>
+				      				<li><a href="#" title="#">melhores animes</a></li>
+				      				<li><a href="#" title="#">fatos sobre marte</a></li>
+				      				<li><a href="#" title="#">melhores filmes</a></li>
+				      				<li><a href="#" title="#">melhores series</a></li>
+				      				<li><a href="#" title="#">pedras preciosas</a></li>
+				      				<li><a href="#" title="#">mundo bizarro</a></li>
+				      				<li><a href="#" title="#">deep web</a></li>
+				      			</ul>
+			      			</div>
+		      			</div>
+		      		</div>
 		      	</div>
 		    </div>
 	    </div>
@@ -31,41 +101,52 @@
 
 	<!-- blocos -->
 	<section class="blocos">
-			<div class="row rowClear">
-				<div class="col s6 bloco">
+			<div class="row rowClear" style="padding: 0;">
+				<div class="col s12 m6 l6 bloco" style="padding: 0;">
+					<a href="sadasd" title="">
 					<div class="destaque-principal">
-						<div class="post-bloco" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/08/restaurar-vis%C3%A3o-e1471537454655.jpg'); background-size: cover; background-repeat: no-repeat;">
+						<div class="black-dc"></div>
+						<div class="post-bloco" style="background: url('http://futurism.com/wp-content/uploads/2016/10/Technology-Will-Replace-Many-Doctors-Lawyers-and-Other-Professionals.jpg'); background-size: cover; background-repeat: no-repeat;">
 						</div>
-						<div class="texto-bloco" style="top: 65%;">
+						<div class="texto-bloco feature-top-dp">
 							<span class="marcador-bloco orange darken-2">Saúde</span>
 							<h2 class="titulo-bloco bloco-principal">Nova Película Invisível pode ser Capaz de Restaurar a Visão de Milhões de Pessoas</h2>
 						</div>
 					</div>
+					</a>
 				</div>
-				<div class="col s6 bloco">
-					<div class="col s12 bloco" style="padding-left: 2px; margin-bottom: 2px;">
+				<div class="col s12 m6 l6 bloco" style="padding: 0;">
+					<div class="col s12 m12 l12 bloco" style="border-left: 2px solid #f7f7f7; padding: 0; border-bottom: 2px solid #fff;">
+						<a href="sadasd" title="">
 						<div class="destaque-semi">
+							<div class="black-dc"></div>
 							<div class="post-bloco" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/09/BMW-Transformers-e1474570665109.png'); background-size: cover; background-repeat: no-repeat;">
 							</div>
-							<div class="texto-bloco" style="top: 35%;">
+							<div class="texto-bloco feature-top-others">
 								<span class="marcador-bloco red darken-3">Tecnologia</span>
 								<h2 class="titulo-bloco bloco-semi">Engenheiros turcos transformam carros BMW em Transformers na vida real</h2>
 							</div>
 						</div>
+						</a>
 					</div>
-					<div class="col s12 bloco">
-						<div class="col s6 bloco" style="padding-left: 2px;">
+					<div class="col s12 m12 l12 bloco" style="padding: 0;">
+						<div class="col s12 m6 l6 bloco" style="border-left: 2px solid #f7f7f7; padding: 0;">
+							<a href="sadasd" title="">
 							<div class="destaque-aux">
+								<div class="black-dc"></div>
 								<div class="post-bloco" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/10/Pegada-de-dinossauro.jpg'); background-size: cover; background-repeat: no-repeat;">
 								</div>
-								<div class="texto-bloco" style="top: 35%;">
+								<div class="texto-bloco feature-top-others">
 									<span class="marcador-bloco green darken-2">Ciência</span>
 									<h2 class="titulo-bloco bloco-aux">Pegada de dinossauro de 70 milhões de anos foi encontrada no deserto de Gobi</h2>
 								</div>
 							</div>
+							</a>
 						</div>
-						<div class="col s6 bloco" style="padding-left: 2px;">
+						<div class="col s12 m6 l6 bloco" style="border-left: 2px solid #f7f7f7; padding: 0;">
+							<a href="sadasd" title="">
 							<div class="destaque-aux">
+								<div class="black-dc"></div>
 								<div class="post-bloco" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/10/cidades-fantasma-e1476152604591.jpg'); background-size: cover; background-repeat: no-repeat;">
 								</div>
 								<div class="texto-bloco" style="top: 35%;">
@@ -73,10 +154,347 @@
 									<h2 class="titulo-bloco bloco-aux">10 cidades fantasma mais famosas do mundo</h2>
 								</div>
 							</div>
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 	</section>
+
+	<section id="share-page" class="share-p">
+		<div class="container-index">
+			<div class="row rowClear">
+				<div class="right">
+					<span class="s-text">Conhecimento nunca é demais</span>
+					<span>twitter</span>
+					<span>facebook</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="categoria-destaque">
+		<div class="container-index">
+			<h1 class="title-cat-destaque"><span>Curiosidades em Destaque</span></h1>
+			<div class="row">
+				<div class="col s12 m12 l12">
+					<div class="row">
+						<div class="col s12 m4 l3">
+							<span class="cat-destaque-nome blue-text text-darken-2">Mega Listas</span>
+							<a href="#" title="#">
+								<div class="destaque-cat">
+									<div class="black-ml"></div>
+									<div class="post-cat-destaque" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/10/Pegada-de-dinossauro.jpg'); background-size: cover; background-repeat: no-repeat;">
+									</div>
+									<div class="post-cat-text">
+										<h2 class="destaque-cat-title">10 cidades fantasma mais famosas do mundo</h2>
+									</div>
+								</div>
+							</a>
+							<ul class="cat-list-posts">
+								<li><a href="#" title="#">Algumas coisas sobre coelhos que você precisa...</a></li>
+								<li><a href="#" title="#">Os cientistas lançam uma iniciativa inovadora para enc...</a></li>
+								<li><a href="#" title="#">Top 10 episódios do Futurama que irão explodir sua me...</a></li>
+							</ul>
+						</div>
+						<div class="col s12 m4 l3">
+							<span class="cat-destaque-nome green-text text-darken-2">Ciência</span>
+							<a href="#" title="#">
+								<div class="destaque-cat">
+									<div class="black-ml"></div>
+									<div class="post-cat-destaque" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/09/BMW-Transformers-e1474570665109.png'); background-size: cover; background-repeat: no-repeat;">
+									</div>
+									<div class="post-cat-text">
+										<h2 class="destaque-cat-title">10 cidades fantasma mais famosas do mundo</h2>
+									</div>
+								</div>
+							</a>
+							<ul class="cat-list-posts">
+								<li><a href="#" title="#">Algumas coisas sobre coelhos que você precisa...</a></li>
+								<li><a href="#" title="#">Os cientistas lançam uma iniciativa inovadora para enc...</a></li>
+								<li><a href="#" title="#">Top 10 episódios do Futurama que irão explodir sua me...</a></li>
+							</ul>
+						</div>
+						<div class="col s12 m4 l3">
+							<span class="cat-destaque-nome green-text text-darken-2">Ciência</span>
+							<a href="#" title="#">
+								<div class="destaque-cat">
+									<div class="black-ml"></div>
+									<div class="post-cat-destaque" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/09/BMW-Transformers-e1474570665109.png'); background-size: cover; background-repeat: no-repeat;">
+									</div>
+									<div class="post-cat-text">
+										<h2 class="destaque-cat-title">10 cidades fantasma mais famosas do mundo</h2>
+									</div>
+								</div>
+							</a>
+							<ul class="cat-list-posts">
+								<li><a href="#" title="#">Algumas coisas sobre coelhos que você precisa...</a></li>
+								<li><a href="#" title="#">Os cientistas lançam uma iniciativa inovadora para enc...</a></li>
+								<li><a href="#" title="#">Top 10 episódios do Futurama que irão explodir sua me...</a></li>
+							</ul>
+						</div>
+						<div class="col s12 m4 l3">
+							<span class="cat-destaque-nome orange-text text-darken-2">Cotidiano</span>
+							<a href="#" title="#">
+								<div class="destaque-cat">
+									<div class="black-ml"></div>
+									<div class="post-cat-destaque" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/10/cidades-fantasma-e1476152604591.jpg'); background-size: cover; background-repeat: no-repeat;">
+									</div>
+									<div class="post-cat-text">
+										<h2 class="destaque-cat-title">10 cidades fantasma mais famosas do mundo</h2>
+									</div>
+								</div>
+							</a>
+							<ul class="cat-list-posts">
+								<li><a href="#" title="#">Algumas coisas sobre coelhos que você precisa...</a></li>
+								<li><a href="#" title="#">Os cientistas lançam uma iniciativa inovadora para enc...</a></li>
+								<li><a href="#" title="#">Top 10 episódios do Futurama que irão explodir sua me...</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="categoria-destaque">
+		<div class="container-index">
+			<h2 class="title-cat-destaque"><span>Curiosidades mais lidas da Semana</span></h2>
+			<div class="container85">
+				<div class="row">
+					<div class="col s12 m4 l4">
+						<a href="" title="">
+							<div class="mldestaque-cat">
+							<div class="black-ml"></div>
+								<div class="mlpost-cat-destaque" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/10/Pegada-de-dinossauro.jpg'); background-size: cover; background-repeat: no-repeat;">
+							</div>
+							<div class="mlpost-cat-text">
+									<h2 class="mldestaque-cat-title">Pegada de dinossauro de 70 milhões de anos foi encontrada no...</h2>
+							</div>	
+							</div>
+						</a>
+					</div>
+
+					<div class="col s12 m4 l4">
+						<a href="" title="">
+							<div class="mldestaque-cat">
+							<div class="black-ml"></div>
+								<div class="mlpost-cat-destaque" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/06/viol%C3%AAncia-dom%C3%A9stica.jpg'); background-size: cover; background-repeat: no-repeat;">
+							</div>
+							<div class="mlpost-cat-text">
+									<h2 class="mldestaque-cat-title">Aplicativo para adolescentes visa prevenir a violência doméstica</h2>
+							</div>	
+							</div>
+						</a>
+					</div>
+
+					<div class="col s12 m4 l4">
+						<a href="#" title="#">
+							<div class="mldestaque-cat">
+								<div class="black-ml"></div>
+									<div class="mlpost-cat-destaque" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/06/baby-jupiter.jpg'); background-size: cover; background-repeat: no-repeat;">
+								</div>
+								<div class="mlpost-cat-text">
+										<h2 class="mldestaque-cat-title">Novo planeta trancado em um espiral da morte é descoberto</h2>
+								</div>	
+							</div>
+						</a>
+					</div>
+
+					<div class="col s12 m4 l4">
+						<a href="#" title="#">
+							<div class="mldestaque-cat">
+								<div class="black-ml"></div>
+									<div class="mlpost-cat-destaque" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/06/baby-jupiter.jpg'); background-size: cover; background-repeat: no-repeat;">
+								</div>
+								<div class="mlpost-cat-text">
+										<h2 class="mldestaque-cat-title">Novo planeta trancado em um espiral da morte é descoberto</h2>
+								</div>	
+							</div>
+						</a>
+					</div>
+
+					<div class="col s12 m4 l4">
+						<a href="#" title="#">
+							<div class="mldestaque-cat">
+								<div class="black-ml"></div>
+									<div class="mlpost-cat-destaque" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/06/baby-jupiter.jpg'); background-size: cover; background-repeat: no-repeat;">
+								</div>
+								<div class="mlpost-cat-text">
+										<h2 class="mldestaque-cat-title">Novo planeta trancado em um espiral da morte é descoberto</h2>
+								</div>	
+							</div>
+						</a>
+					</div>
+
+					<div class="col s12 m4 l4">
+						<a href="#" title="#">
+							<div class="mldestaque-cat">
+								<div class="black-ml"></div>
+									<div class="mlpost-cat-destaque" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/06/baby-jupiter.jpg'); background-size: cover; background-repeat: no-repeat;">
+								</div>
+								<div class="mlpost-cat-text">
+										<h2 class="mldestaque-cat-title">Novo planeta trancado em um espiral da morte é descoberto</h2>
+								</div>	
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="ultimas-novidades">
+		<div class="container-index">
+			<h2 class="title-cat-destaque"><span>Últimas Novidades</span></h2>
+			<div class="container85">
+				<div class="row">
+					<div class="col s12 m5 l5">
+						<div class="novidades-post">
+								<a class="novidades-post-image" href="#" title="#" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/10/Ciclovia-luminescente.jpg'); background-size: cover; background-repeat: no-repeat;">
+								</a>
+							</div>
+					</div>
+					<div class="col s12 m7 l7">
+						<div class="novidades-text">
+							<a href="#" title="#"><span class="novidades-marcador blue">Ciência</span></a>
+							<a href="#" title="#"><h2 class="novidades-title">Ciclovia luminescente ilumina uma cidade na Polônia</h2></a>
+							<!-- desc -->
+							<span class="novidades-descricao">A cidade rural polonesa revelou um novo brilho da ciclovia luminescente, na esperança de reduzir acidentes entre peões e ciclistas durante à noite.</span>
+							<div class="row">
+								<div class="col s12 m4 l4" style="padding: 0;">
+									<span class="chip-index">Data: 12 de Setembro de 2016</span>
+								</div>
+								<div class="col s12 m8 l8">
+									<span class="entry-tags">
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/bicicleta/" rel="tag">#bicicleta</a>
+										</span> 
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/cidades/" rel="tag">#cidades</a></span> 
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/europa/" rel="tag">#europa</a>
+										</span>	
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/europa/" rel="tag">#natureza</a>
+										</span>	
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/europa/" rel="tag">#ciencia</a>
+										</span>				
+									</span>
+								</div>
+							</div>
+							<div class="separator-row"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 m5 l5">
+						<div class="novidades-post">
+								<a class="novidades-post-image" href="#" title="#" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/06/ma%C3%A7as.jpg'); background-size: cover; background-repeat: no-repeat;">
+								</a>
+							</div>
+					</div>
+					<div class="col s12 m7 l7">
+						<div class="novidades-text">
+							<a href="#" title="#"><span class="novidades-marcador pink">Saúde</span></a>
+							<a href="#" title="#"><h2 class="novidades-title">Clarear os dentes naturalmente: 10 maneiras surpreendentes</h2></a>
+							<!-- desc -->
+							<span class="novidades-descricao">Clarear os dentes é algo que atualmente os preços são escandalosamente caros. Mas, felizmente, a mãe natureza nos deu alguns...</span>
+							<div class="row">
+								<div class="col s12 m4 l4" style="padding: 0;">
+									<span class="chip-index">Data: 12 de Setembro de 2016</span>
+								</div>
+								<div class="col s12 m8 l8">
+									<span class="entry-tags">
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/bicicleta/" rel="tag">#bicicleta</a>
+										</span> 
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/cidades/" rel="tag">#cidades</a></span> 
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/europa/" rel="tag">#europa</a>
+										</span>	
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/europa/" rel="tag">#natureza</a>
+										</span>	
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/europa/" rel="tag">#ciencia</a>
+										</span>				
+									</span>
+								</div>
+							</div>
+							<div class="separator-row"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 m5 l5">
+						<div class="novidades-post">
+								<a class="novidades-post-image" href="#" title="#" style="background: url('http://www.megacuriosidades.net/wp-content/uploads/2016/08/Maconha-prejudica-o-sono-estudo.jpg'); background-size: cover; background-repeat: no-repeat;">
+								</a>
+							</div>
+					</div>
+					<div class="col s12 m7 l7">
+						<div class="novidades-text">
+							<a href="#" title="#"><span class="novidades-marcador red">Bizarro</span></a>
+							<a href="#" title="#"><h2 class="novidades-title">Maconha prejudica o sono, diz estudo</h2></a>
+							<!-- desc -->
+							<span class="novidades-descricao">Muitos usuários acreditam que fumar maconha ajuda a dormir bem, mas a ciência diz o contrário. Eles apontam que fumar maconha prejudica o sono.</span>
+							<div class="row">
+								<div class="col s12 m4 l4" style="padding: 0;">
+									<span class="chip-index">Data: 12 de Setembro de 2016</span>
+								</div>
+								<div class="col s12 m8 l8">
+									<span class="entry-tags">
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/bicicleta/" rel="tag">#bicicleta</a>
+										</span> 
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/cidades/" rel="tag">#cidades</a></span> 
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/europa/" rel="tag">#europa</a>
+										</span>	
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/europa/" rel="tag">#natureza</a>
+										</span>	
+										<span class="chip-index">
+											<a href="http://www.megacuriosidades.net/tags/europa/" rel="tag">#ciencia</a>
+										</span>				
+									</span>
+								</div>
+							</div>
+							<div class="separator-row"></div>
+						</div>
+					</div>
+				</div>
+				<div class="center"><a class="waves-effect waves-light btn grey lighten-3 grey-text z-depth-0"><i class="material-icons left">update</i>carregar mais</a></div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="rodape">
+		<div class="rodape">
+			<div class="row rowClear">
+				<div class="container center">
+					<div class="frase-container">
+						<span class="frase-rodape">Um espaço para quem gosta de explorar tudo o que há de interessante no mundo. A nossa missão é compartilhar conhecimento e matar sua curiosidade!</span>
+					</div>
+					<div class="logo-rodape">
+						<img src="img/logo-footer.png">
+					</div>
+					<span class="creditos">Copyright © 2016, MegaCuriosidades, Todos Direitos Reservados.</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- LIBS JS -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<!-- CUSTOM JS-->
+	<script type="text/javascript" src="js/jqueryfc.js"></script>
+
 </body>
 </html>
